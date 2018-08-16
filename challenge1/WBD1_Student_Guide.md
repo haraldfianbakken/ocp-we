@@ -1,4 +1,4 @@
-﻿![Microsoft Cloud Workshops](/media/ms-cloud-workshop.png "Microsoft Cloud Workshops")
+﻿![Microsoft Cloud Workshops](/challenge1/media/ms-cloud-workshop.png "Microsoft Cloud Workshops")
 
 <div class="MCWHeader1">
 App modernization
