@@ -1,25 +1,16 @@
 ﻿![Microsoft Cloud Workshops](/challenge1/media/ms-cloud-workshop.png "Microsoft Cloud Workshops")
 
 <div class="MCWHeader1">
-App modernization
+WE OCP TechTeam Offsite
 </div>
 
 <div class="MCWHeader2">
-Whiteboard design session student guide
+App modernization - Whiteboard design session & guide
 </div>
 
 <div class="MCWHeader3">
-June 2018
+September 2018
 </div>
-
-Information in this document, including URL and other Internet Web site references, is subject to change without notice. Unless otherwise noted, the example companies, organizations, products, domain names, e-mail addresses, logos, people, places, and events depicted herein are fictitious, and no association with any real company, organization, product, domain name, e-mail address, logo, person, place or event is intended or should be inferred. Complying with all applicable copyright laws is the responsibility of the user. Without limiting the rights under copyright, no part of this document may be reproduced, stored in or introduced into a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise), or for any purpose, without the express written permission of Microsoft Corporation.
-
-Microsoft may have patents, patent applications, trademarks, copyrights, or other intellectual property rights covering subject matter in this document. Except as expressly provided in any written license agreement from Microsoft, the furnishing of this document does not give you any license to these patents, trademarks, copyrights, or other intellectual property.
-
-The names of manufacturers, products, or URLs are provided for informational purposes only and Microsoft makes no representations and warranties, either expressed, implied, or statutory, regarding these manufacturers or the use of the products with any Microsoft technologies. The inclusion of a manufacturer or product does not imply endorsement of Microsoft of the manufacturer or product. Links may be provided to third party sites. Such sites are not under the control of Microsoft and Microsoft is not responsible for the contents of any linked site or any link contained in a linked site, or any changes or updates to such sites. Microsoft is not responsible for webcasting or any other form of transmission received from any linked site. Microsoft is providing these links to you only as a convenience, and the inclusion of any link does not imply endorsement of Microsoft of the site or the products contained therein.
-© 2018 Microsoft Corporation. All rights reserved.
-
-Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/Usage/General.aspx> are trademarks of the Microsoft group of companies. All other trademarks are property of their respective owners.
 
 # App modernization whiteboard design session student guide
 
@@ -29,15 +20,17 @@ In this whiteboard design session, you will work with a group to design a soluti
 
 At the end of this whiteboard design session, you will be better able to design a modernization plan for organizations looking to move services from on-premises to the cloud.
 
+**Note:** *Before you begin...total planned time for this challenge is 1h20min; 70 minutes for readning customer neeed + planning & design a solution architecture. Last 20 min (10 per team) will be used for teams mutual presenting of crafted solution. We wish to you all - good luck, fun and discovery time with your team!*
+
 ## Step 1: Review the customer case study 
 
 **Outcome** 
 
 Analyze your customer’s needs.
 
-Timeframe: 15 minutes 
+Timeframe: 10 minutes 
 
-Directions: With all participants in the session, the facilitator/SME presents an overview of the customer case study along with technical tips. 
+Directions: all participants in the session, read supplied materials, make notes and engage the challenge. Here are few activites to make your team start: 
 
 1.  Meet your table participants and trainer
 2.  Read all of the directions for steps 1–3 in the Student guide
@@ -179,16 +172,16 @@ Directions: With all participants at your table:
 2.  Identify the benefits of your solution.
 3.  Determine how you will respond to the customer’s objections.
 
-Prepare a 15-minute chalk-talk style presentation to the customer. 
+Prepare a 10-minute chalk-talk style presentation to the customer. 
 
 
 ## Step 3: Present the solution
 
 **Outcome**
  
-Present a solution to the target customer audience in a 15-minute chalk-talk format.
+Present a solution to the target customer audience in a 10-minute chalk-talk format.
 
-Timeframe: 30 minutes
+Timeframe: 20 minutes total (10 minutes per team)
 
 **Presentation** 
 
@@ -202,12 +195,7 @@ Directions:
 7.  Tables switch roles and repeat Steps 2–6
 
 
-##  Wrap-up 
-
-Timeframe: 15 minutes
-
--   Tables reconvene with the larger group to hear a SME share the preferred solution for the case study
-
+ 
 ##  Additional references
 
 |    |            |
