@@ -1,4 +1,4 @@
-﻿![Microsoft Cloud Workshops](https://github.com/haraldfianbakken/ocp-we/raw/master/Media/ms-cloud-workshop.png "Microsoft Cloud Workshops")
+﻿![Microsoft Cloud Workshops](https://github.com/haraldfianbakken/ocp-we/blob/master/media/ms-cloud-workshop.png "Microsoft Cloud Workshops")
 
 <div class="MCWHeader1">
 App modernization
