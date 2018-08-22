@@ -1,52 +1,17 @@
 ﻿![](/challenge2/media/ms-cloud-workshop.png "Microsoft Cloud Workshops")
-
 <div class="MCWHeader1">
-SAP Netweaver on Azure
+WE OCP TechTeam Offsite
 </div>
 
 <div class="MCWHeader2">
-Whiteboard design session student guide
+SAP on Azure - Whiteboard design session
 </div>
 
 <div class="MCWHeader3">
-March 2018
+September 2018
 </div>
 
-Information in this document, including URL and other Internet Web site references, is subject to change without notice. Unless otherwise noted, the example companies, organizations, products, domain names, e-mail addresses, logos, people, places, and events depicted herein are fictitious, and no association with any real company, organization, product, domain name, e-mail address, logo, person, place or event is intended or should be inferred. Complying with all applicable copyright laws is the responsibility of the user. Without limiting the rights under copyright, no part of this document may be reproduced, stored in or introduced into a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise), or for any purpose, without the express written permission of Microsoft Corporation.
-
-Microsoft may have patents, patent applications, trademarks, copyrights, or other intellectual property rights covering subject matter in this document. Except as expressly provided in any written license agreement from Microsoft, the furnishing of this document does not give you any license to these patents, trademarks, copyrights, or other intellectual property.
-
-The names of manufacturers, products, or URLs are provided for informational purposes only and Microsoft makes no representations and warranties, either expressed, implied, or statutory, regarding these manufacturers or the use of the products with any Microsoft technologies. The inclusion of a manufacturer or product does not imply endorsement of Microsoft of the manufacturer or product. Links may be provided to third party sites. Such sites are not under the control of Microsoft and Microsoft is not responsible for the contents of any linked site or any link contained in a linked site, or any changes or updates to such sites. Microsoft is not responsible for webcasting or any other form of transmission received from any linked site. Microsoft is providing these links to you only as a convenience, and the inclusion of any link does not imply endorsement of Microsoft of the site or the products contained therein.
-
-©  2018 Microsoft Corporation. All rights reserved.
-
-Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/Usage/General.aspx> are trademarks of the Microsoft group of companies. All other trademarks are property of their respective owners.
-
-**Contents**
-
-<!-- TOC -->
-
-- [SAP on Azure whiteboard design session student guide](#sap-on-azure-whiteboard-design-session-student-guide)
-    - [Abstract and learning objectives](#abstract-and-learning-objectives)
-    - [Step 1: Review the customer case study](#step-1-review-the-customer-case-study)
-        - [Customer situation](#customer-situation)
-        - [Customer needs](#customer-needs)
-        - [Technical requirements](#technical-requirements)
-        - [Customer objections](#customer-objections)
-        - [Infographic for common scenarios](#infographic-for-common-scenarios)
-    - [Step 2: Design a proof of concept solution](#step-2-design-a-proof-of-concept-solution)
-        - [*Architecting network connectivity*](#architecting-network-connectivity)
-        - [*Architecting (ASCS) components*](#architecting-ascs-components)
-        - [*Architecting application components*](#architecting-application-components)
-        - [*Architecting database components*](#architecting-database-components)
-        - [*Determining estimated cost of the solution*](#determining-estimated-cost-of-the-solution)
-    - [Step 3: Present the solution](#step-3-present-the-solution)
-    - [Wrap-up](#wrap-up)
-        - [Additional references](#additional-references)
-
-<!-- /TOC -->
-
-#  SAP on Azure whiteboard design session student guide
+# SAP on Azure whiteboard design session student guide
 
 ## Abstract and learning objectives 
 
@@ -60,18 +25,23 @@ Attendees will be better able to deploy SAP on Azure infrastructure components a
 
 -   Respond to RFI/RFP for SAP on Cloud opportunity
 
-## Step 1: Review the customer case study 
+>***Note:*** *Before you begin*...*Challenge will have **3 steps*** and ***total planned time for it to be completed is 1h20min***: 
+>* First 10 minutes for **reading & understanding customer neeeds**
+>* 60 minutes for **planning & designing a solution architecture** 
+>* Last 20 min (10 per team) will be used for teams **mutual presenting of crafted solution**
+>
+>We wish to you all - good luck, fun and discovery time with your team!
 
-**Outcome** 
+## Step 1: Review the customer case study
 
-Analyze your customer’s needs.
-
-Timeframe: 15 minutes 
-
+>**Outcome**: Analyze your and understand customer’s needs.
+>
+>Timeframe: 10 minutes 
+<!--Break_Point-->
 Directions: With all participants in the session, the facilitator/SME presents an overview of the customer case study along with technical tips. 
 
 1.  Meet your table participants and trainer 
-2.  Read all of the directions for steps 1–3 in the student guide 
+2.  Read all of the directions for steps 1–3 in the student guide
 3.  As a table team, review the following customer case study
 
 ### Customer situation
@@ -142,10 +112,9 @@ Contoso CIO and the company CFO, along with Business Development Manager (BDM), 
 
 ## Step 2: Design a proof of concept solution
 
-**Outcome** 
-Design a solution and prepare to present the solution to the target customer audience in a 15-minute chalk-talk format. 
-
-Timeframe: 60 minutes
+>**Outcome**: Design a solution and prepare to present the solution to the target customer audience in a 10-minute chalk-talk format.
+>
+>Timeframe: 60 minutes
 
 **Business needs**
 
@@ -217,6 +186,8 @@ Make sure that your design covers the following items:
 
 -   Describe the disaster recovery approach
 
+<!-- Throwing out Pricing calculation!!!! 
+
 ### *Determining estimated cost of the solution*
 
 **Task:** Based on the proposed design, determine the estimated cost of the entire solution.
@@ -226,7 +197,7 @@ Make sure that your design covers the following items:
 -   Exclude cost of hybrid connectivity, licensing, and support
 
 -   Consider cost impact of leveraging Azure VM reserved instances (RI) and Azure Hybrid Benefit (AHUB)
-
+-->
 ![A diagram mapping customer requirements to the needed sizing in Azure.](images/Whiteboarddesignsessiontrainerguide-SAPonAzureimages/media/image5.png "How to size SAP on Azure VMs")
 
 ![A diagram depicting several areas to complete to make a cross region resilient deployment.](images/Whiteboarddesignsessiontrainerguide-SAPonAzureimages/media/image6.png "How to build high availability across regions")
@@ -239,15 +210,14 @@ Directions: With all participants at your table:
 2.  Identify the benefits of your solution 
 3.  Determine how you will respond to the customer’s objections 
 
-Prepare a 15-minute chalk-talk style presentation to the customer. 
+Prepare a 10-minute chalk-talk style presentation to the customer. 
 
 ## Step 3: Present the solution
 
-**Outcome**
- 
-Present a solution to the target customer audience in a 15-minute chalk-talk format.
-
-Timeframe: 30 minutes
+>**Outcome**:
+>Present a solution to the target customer audience in a 10-minute chalk-talk format.
+>
+>Timeframe: 20 minutes total (10 minutes per team)
 
 **Presentation** 
 
@@ -261,14 +231,7 @@ Directions:
 6.  The customer team gives feedback to the Microsoft team 
 7.  Tables switch roles and repeat Steps 2–6
 
-
-
-##  Wrap-up 
-
-Time frame: 15 minutes
-
-Directions: Tables reconvene with the larger group to hear the facilitator/SME share the preferred solution for the case study.
-
+___
 ### Additional references 
 
 |    |            |

@@ -20,17 +20,20 @@ In this whiteboard design session, you will work with a group to design a soluti
 
 At the end of this whiteboard design session, you will be better able to design a modernization plan for organizations looking to move services from on-premises to the cloud.
 
-**Note:** *Before you begin...total planned time for this challenge is 1h20min; 70 minutes for readning customer neeed + planning & design a solution architecture. Last 20 min (10 per team) will be used for teams mutual presenting of crafted solution. We wish to you all - good luck, fun and discovery time with your team!*
+>***Note:*** *Before you begin*...*Challenge will have **3 steps*** and ***total planned time for it to be completed is 1h20min***: 
+>* First 10 minutes for **reading & understanding customer neeeds**
+>* 60 minutes for **planning & designing a solution architecture** 
+>* Last 20 min (10 per team) will be used for teams **mutual presenting of crafted solution**
+>
+>We wish to you all - good luck, fun and discovery time with your team!  :metal: :octocat: 
+<!--test emoji-->
+## Step 1: Review the customer case study
 
-## Step 1: Review the customer case study 
+>**Outcome**: Analyze your and understand customer’s needs.
+>
+>Timeframe: 10 minutes  
 
-**Outcome** 
-
-Analyze your customer’s needs.
-
-Timeframe: 10 minutes 
-
-Directions: all participants in the session, read supplied materials, make notes and engage the challenge. Here are few activites to make your team start: 
+Directions: all participants in the session, read supplied materials, make notes and engage the challenge. Here are few activities to make your team start: 
 
 1.  Meet your table participants and trainer
 2.  Read all of the directions for steps 1–3 in the Student guide
@@ -79,47 +82,47 @@ Cost containment will be achieved through use of cloud-based services. The aging
 
 "Our directors wanted a document system they could quickly adapt, that would keep costs low, but help them expand very quickly indeed," says Lark. "They did not want to invest in on-site infrastructure if the resources and IT support involved ultimately slowed our growth. The directors had a clear ICT strategy: 'All systems to the cloud.'"
 
-### Customer needs 
+### Customer needs
 
-1.  Contoso wants to modernize the architecture of its solution, while keeping it .NET-based.
+1. Contoso wants to modernize the architecture of its solution, while keeping it .NET-based.
 
-2.  They would like a .NET developer-friendly way to implement its PolicyConnect mobile app for Android and iOS.
+2. They would like a .NET developer-friendly way to implement its PolicyConnect mobile app for Android and iOS.
 
-3.  They are looking for ways to empower its business users to create their own internal mobile apps that help them streamline their processes without the time and resource investment that goes into implementing full-scale mobile apps.
+3. They are looking for ways to empower its business users to create their own internal mobile apps that help them streamline their processes without the time and resource investment that goes into implementing full-scale mobile apps.
 
-4.  They would like to improve the management of application secrets.
+4. They would like to improve the management of application secrets.
 
-5.  They would like to make all of its policy documents full-text searchable, with the minimal amount of implementation effort.
+5. They would like to make all of its policy documents full-text searchable, with the minimal amount of implementation effort.
 
-6.  They are interested in leveraging serverless technologies to speed up API development and are interested in a POC that can be used to retrieve policy documents from storage.
+6. They are interested in leveraging serverless technologies to speed up API development and are interested in a POC that can be used to retrieve policy documents from storage.
 
 7.  They would like to migrate to SQL Database.
 
 8.  Contoso wants to understand how to better deploy caching in its solution, both for the purposes of lessening load on the database and for providing scalable scoreboards.
 
-### Customer objections 
+### Customer objections
 
 1.  We have seen services like IFTTT that let business users automate processes. Does Microsoft Azure offer something similar?
 
-2.  Our developers have heard of Logic Apps. Will these be replaced by Microsoft Flow?
+2. Our developers have heard of Logic Apps. Will these be replaced by Microsoft Flow?
 
-3.  Is there really a way to securely store application secrets in the cloud?
+3. Is there really a way to securely store application secrets in the cloud?
 
-4.  We noticed that Azure SQL Database does not support all the features we are accustomed to in SQL Server, not that we are using them currently. Specifically, we were thinking about Linked Servers, Database Mail, SQL Server Agent Jobs, and Service Broker. What are our options for these in Azure?
+4. We noticed that Azure SQL Database does not support all the features we are accustomed to in SQL Server, not that we are using them currently. Specifically, we were thinking about Linked Servers, Database Mail, SQL Server Agent Jobs, and Service Broker. What are our options for these in Azure?
 
-5.  Moving everything to APIs sounds great but how can we stay on top of our API inventory and manage discoverability, security, lifecycle, and monitoring into the future? Is there something we could use to easily develop a proof of concept now? 
+5. Moving everything to APIs sounds great but how can we stay on top of our API inventory and manage discoverability, security, lifecycle, and monitoring into the future? Is there something we could use to easily develop a proof of concept now? 
 
 
 ### Infographic for common scenarios
 
 ![The Common scenario for an E-Commerce Website diagram has an Enterprise and an End User connected via an internet tier, a services tier, and a data tier.](images/Whiteboarddesignsessiontrainerguide-Appmodernizationimages/media/image3.png "Common scenario for an E-Commerce Website diagram")
 
+---
 ## Step 2: Design a proof of concept solution
 
-**Outcome** 
-Design a solution and prepare to present the solution to the target customer audience in a 15-minute chalk-talk format. 
-
-Timeframe: 60 minutes
+>**Outcome**:Design a solution and prepare to present the solution to the target customer audience in a 10-minute chalk-talk format. 
+>
+>Timeframe: 60 minutes
 
 **Business needs**
 
@@ -168,20 +171,19 @@ Directions: With all participants at your table, respond to the following questi
 **Prepare**
 
 Directions: With all participants at your table: 
-1.  Identify any customer needs that are not addressed with the proposed solution.
-2.  Identify the benefits of your solution.
-3.  Determine how you will respond to the customer’s objections.
+1. Identify any customer needs that are not addressed with the proposed solution.
+2. Identify the benefits of your solution.
+3. Determine how you will respond to the customer’s objections.
 
-Prepare a 10-minute chalk-talk style presentation to the customer. 
+Prepare a 10-minute chalk-talk style presentation to the customer.
 
 
 ## Step 3: Present the solution
 
-**Outcome**
- 
-Present a solution to the target customer audience in a 10-minute chalk-talk format.
-
-Timeframe: 20 minutes total (10 minutes per team)
+>**Outcome**:
+>Present a solution to the target customer audience in a 10-minute chalk-talk format.
+>
+>Timeframe: 20 minutes total (10 minutes per team)
 
 **Presentation** 
 
@@ -195,7 +197,7 @@ Directions:
 7.  Tables switch roles and repeat Steps 2–6
 
 
- 
+--- 
 ##  Additional references
 
 |    |            |
