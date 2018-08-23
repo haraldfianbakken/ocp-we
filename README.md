@@ -1,6 +1,6 @@
 ## OCP WE - Technical challenge
 ![Microsoft Cloud Workshops](/challenge1/media/we-ms-cloud-workshop.png "Microsoft Cloud Workshops")
-Welcome to the OCP WE Technical challenge. Let's have some Tech fun today! There are to Hack challenges to be conquered! ...*are you and your team ready?*
+Welcome to the OCP WE Technical challenge. Let's have some Tech fun today! There are two hack challenges to be conquered! ...*are you and your team ready?*
 
 ![Microsoft Cloud Workshops](/challenge1/images/OCP_Darth_Vader.png  "Darth") 
 >***Note:*** *Before you begin*...*Each challenge consists of **3 steps.***  ***Total planned time for each both challenges  to be completed is 2h40min.*** Recommended flow for each individual challenge: 
