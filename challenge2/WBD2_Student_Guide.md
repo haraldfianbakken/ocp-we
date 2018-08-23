@@ -36,8 +36,8 @@ Attendees will be better able to deploy SAP on Azure infrastructure components a
 
 >**Outcome**: Analyze your and understand customer’s needs.
 >
->Timeframe: 10 minutes 
-<!--Break_Point-->
+>Timeframe: 10 minutes!
+<!--dnbdbdBreak_Point-->
 Directions: With all participants in the session, the facilitator/SME presents an overview of the customer case study along with technical tips. 
 
 1.  Meet your table participants and trainer 
