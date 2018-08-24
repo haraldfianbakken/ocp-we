@@ -43,49 +43,49 @@ Directions: all participants in the session, read supplied materials, make notes
 
 ### Customer situation
 
-Contoso, Ltd. is a new company in a very old business. Founded in Auckland, New Zealand, in 2005 by senior life insurance executives, the ambitious new company provides a full range of long-term insurance services to help people who are underinsured.
+Imperial Cadet Insurance (IcI), Ltd. is a new company in a very old business. Founded in Coruscant, Coruscant system of the Core Worlds, by senior ex Imperial officers. The ambitious new company provides a full range of long-term insurance services to help stormtroopers who are underinsured all over the galaxy.
 
 Almost from the start, the company grew far faster than anticipated. An avalanche of business meant that the original processes created to manage policy documentation became overloaded. Employees struggled to cope, even as the headcount rose from five to 110 during the first year.
 
-"By the beginning of 2007, we had over 750,000 pages of partly hand-written policy documents filed in our offices," says Mirand Lark, General Manager, Contoso, Ltd. "Customer-facing employees could not retrieve policies quickly, and we faced a service bottleneck. Slow response times impacted customer service, and the ability to locate documents quickly cost us time and money."
+"By the beginning of Clone Wars, we had over 750,000 pages of partly hand-written policy documents filed in our offices," says Mirand Lark, General Manager, Imperial Cadet Insurance (IcI), Ltd. "Customer-facing employees could not retrieve policies quickly, and we faced a service bottleneck. Slow response times impacted customer service, and the ability to locate documents quickly cost us time and money."
 
-With a combined 150 years of industry experience, the founders of Contoso, Ltd. knew exactly what capabilities they wanted: automated document forwarding from brokers, secure access for brokers to Contoso, Ltd., access to policy information, and ready policy retrieval for a dispersed workforce.
+With a combined 150 years of industry experience, the founders of Imperial Cadet Insurance (IcI), Ltd. knew exactly what capabilities they wanted: automated document forwarding from brokers, secure access for brokers to Imperial Cadet Insurance (IcI), Ltd., access to policy information, and ready policy retrieval for a dispersed workforce.
 
-To overcome its challenges, executives set about to digitize and file all existing policy documents and find a way to automatically file new policies as soon as brokers submitted them. To accomplish this, Contoso, Ltd. implemented PolicyConnect, a custom Windows Forms application used by its staff to input key metadata that includes policyholder information such as insured amount, beneficiary, policy type, and any deductible and out-of-pocket requirements.
+To overcome its challenges, executives set about to digitize and file all existing policy documents and find a way to automatically file new policies as soon as brokers submitted them. To accomplish this, Imperial Cadet Insurance (IcI), Ltd. implemented PolicyConnect, a custom Windows Forms application used by its staff to input key metadata that includes policyholder information such as insured amount, beneficiary, policy type, and any deductible and out-of-pocket requirements.
 
-Contoso employees access this application, which ultimately stores its data in a SQL Server 2008 and a file server on their local area network.
+Imperial Cadet Insurance (IcI) employees access this application, which ultimately stores its data in a Imperial SQL Server DarthVander Edition and a file server on their local area network.
 
-Contoso, Ltd. provided the following diagram about its current topology:
+Imperial Cadet Insurance (IcI), Ltd. provided the following diagram about its current topology:
 
-![The Contoso topology diagram has a local area network comprised of the on-premise user, Application servers for authentication and authorization, policy management and data access service, database servers, and file servers. A VPN server connects them to the Remote User via PolicyConnect.](images/Whiteboarddesignsessiontrainerguide-Appmodernizationimages/media/image2.png "The Contoso topology diagram has a local area network comprised of the on-premise user, Application servers for authentication and authorization, policy management and data access service, database servers, and file servers. A VPN server connects them to the Remote User via PolicyConnect.")
+![The Imperial Cadet Insurance (IcI) topology diagram has a local area network comprised of the on-premise user, Application servers for authentication and authorization, policy management and data access service, database servers, and file servers. A VPN server connects them to the Remote User via PolicyConnect.](images/Whiteboarddesignsessiontrainerguide-Appmodernizationimages/media/image2.png "The Imperial Cadet Insurance (IcI) topology diagram has a local area network comprised of the on-premise user, Application servers for authentication and authorization, policy management and data access service, database servers, and file servers. A VPN server connects them to the Remote User via PolicyConnect.")
 
-Contoso's Windows Forms application is a traditional n-tier platform containing a data access layer, which houses the SQL Server data access methods; a business logic layer that handles things like user login (username and password) and policy rules; and a presentation layer comprised of the screens a user views while creating a new policy holder. The design follows a service-oriented architecture, with a series of Windows Communication Foundation (WCF) services representing the services and capabilities required for each tier. Scanned PDFs of policy documents are stored on a file server accessible via a network share and referenced in the solution by a canonical path (customer last name and policy number). The key metadata for each policy document is currently entered manually by Contoso staff members into the application and ultimately stored in a SQL Server.
+Imperial Cadet Insurance (IcI)'s Windows Forms application is a traditional n-tier platform containing a data access layer, which houses the SQL Server data access methods; a business logic layer that handles things like user login (username and password) and policy rules; and a presentation layer comprised of the screens a user views while creating a new policy holder. The design follows a service-oriented architecture, with a series of Windows Communication Foundation (WCF) services representing the services and capabilities required for each tier. Scanned PDFs of policy documents are stored on a file server accessible via a network share and referenced in the solution by a canonical path (customer last name and policy number). The key metadata for each policy document is currently entered manually by Imperial Cadet Insurance (IcI) staff members into the application and ultimately stored in a SQL Server.
 
-The application currently supports access via VPN for users outside the Contoso local area network. As such, Contoso brokers are unable to view data or documents unless granted VPN access, which has proven time-consuming and difficult for the brokers.
+The application currently supports access via VPN for users outside the Imperial Cadet Insurance (IcI) local area network. As such, Imperial Cadet Insurance (IcI) brokers are unable to view data or documents unless granted VPN access, which has proven time-consuming and difficult for the brokers.
 
-Contoso employees rely on email as a workflow engine relative to the document management tasks. One group is responsible for scanning and cataloging while another group is responsible for assigning the policies to the specified broker. Manually written emails are sent to brokers when their customer's policies have been scanned and indexed. They are using Office 365.
+Imperial Cadet Insurance (IcI) employees rely on email as a workflow engine relative to the document management tasks. One group is responsible for scanning and cataloging while another group is responsible for assigning the policies to the specified broker. Manually written emails are sent to brokers when their customer's policies have been scanned and indexed. They are using Office 365.
 
 The company executives have frequent challenges in gauging productivity and throughput given the manual workflow---they feel that they are blocked in quickly getting to the insights they need because each new question seems to need more custom development.
 
-Contoso Insurance wants to make its policyholder system available to its employees and brokers via web and mobile applications without requiring VPN. They also want to store policies in cloud storage for retrieval via the web and mobile applications. Their new web application will permit policyholders to log in, review their information, and retrieve a PDF copy of their policy. The mobile application will permit the same functionality. An Application Programming Interface (API) will drive both the web and mobile applications. The web application, database, and API will all be deployed to the cloud. In addition, they are interested in learning about light weight, serverless architectures that may help them implement some API functionality more rapidly, such as providing access to policy documents in storage. Contoso brokers will be provided a link to the mobile application via the website, which targets iOS and Android devices.
+Imperial Cadet Insurance (IcI) Insurance wants to make its policyholder system available to its employees and brokers via web and mobile applications without requiring VPN. They also want to store policies in cloud storage for retrieval via the web and mobile applications. Their new web application will permit policyholders to log in, review their information, and retrieve a PDF copy of their policy. The mobile application will permit the same functionality. An Application Programming Interface (API) will drive both the web and mobile applications. The web application, database, and API will all be deployed to the cloud. In addition, they are interested in learning about light weight, serverless architectures that may help them implement some API functionality more rapidly, such as providing access to policy documents in storage. Imperial Cadet Insurance (IcI) brokers will be provided a link to the mobile application via the website, which targets iOS and Android devices.
 
-Contoso would like to migrate its SQL Server-based database to SQL Database. According to Contoso, it does not use any of the "fancy" SQL Server features and hopes the migration can be a slam dunk.
+Imperial Cadet Insurance (IcI) would like to migrate its SQL Server-based database to SQL Database. According to Imperial Cadet Insurance (IcI), it does not use any of the "fancy" SQL Server DartVader features and hopes the migration can be a slam dunk.
 
 Given all these new clients, their databases will become overloaded, so they want to ensure they employ best practices for mitigating the impact of repeated querying of the database. Along these lines, they would like to implement a scoreboard of sorts that tracks the most active users in a 24-hour period, as well approximates the number of operations that user performed with the system in perpetuity. Both metrics are interesting to management to be able to get a cursory understanding of who the heaviest users are and how much they really use the system.
 
-Contoso has multiple development teams that focus on separate business units, e.g. underwriting, sales and brokers, compliance, etc. IT leadership is excited to move as much business logic to APIs as possible, but concerned that, over time, there will be duplication of effort as each team develops new or revises existing APIs. Contoso would also like to open up a subset of APIs to a network of affiliated partners. They are interested in strategies that will help them provide discoverability, security and lifecycle management of an evolving API ecosystem. In the future, they realize they will need advanced analytics and data visualizations of API usage to help manage the API inventory.
+Imperial Cadet Insurance (IcI) has multiple development teams that focus on separate business units, e.g. underwriting, sales and brokers, compliance, etc. IT leadership is excited to move as much business logic to APIs as possible, but concerned that, over time, there will be duplication of effort as each team develops new or revises existing APIs. Imperial Cadet Insurance (IcI) would also like to open up a subset of APIs to a network of affiliated partners. They are interested in strategies that will help them provide discoverability, security and lifecycle management of an evolving API ecosystem. In the future, they realize they will need advanced analytics and data visualizations of API usage to help manage the API inventory.
 
 According to Mirand Lark, "Mobile applications represent a way to empower our brokers and our employees by bringing our software to the palm of their hands. While we will invest in making the best mobile app version of PolicyConnect possible, we also want to make sure we have a streamlined way for our internal departments to quickly build their own apps to automate their own time-saving micro-processes without having to involve the PolicyConnect development team or ideally even developers." He cited additional examples of these micro-processes, such as enabling employees to set rules, such as when a VIP customer sends an email, they get an application notification on their mobile device; or enabling them to set workflows, like automatically saving attachments in emails with policy documents to the proper location in cloud storage.
 
-With this new system, Contoso would like to improve its security practices. In the previous version, each application tier maintained its configuration settings locally. For example, the data access layer would store the connection strings for SQL Server locally on disk. It would like to take an approach of externalizing secrets such as these from the web apps and APIs, and storing them in an encrypted location accessible only to authorized services.
+With this new system, Imperial Cadet Insurance (IcI) would like to improve its security practices. In the previous version, each application tier maintained its configuration settings locally. For example, the data access layer would store the connection strings for SQL Server locally on disk. It would like to take an approach of externalizing secrets such as these from the web apps and APIs, and storing them in an encrypted location accessible only to authorized services.
 
-Cost containment will be achieved through use of cloud-based services. The aging Contoso datacenter can be retired and the hardware therein repurposed or disposed. Additional mail processing costs of approximately \$250,000 will be eliminated through the new cloud-based platform.
+Cost containment will be achieved through use of cloud-based services. The aging Imperial Cadet Insurance (IcI) datacenter can be retired and the hardware therein repurposed or disposed. Additional mail processing costs of approximately \$250,000 will be eliminated through the new cloud-based platform.
 
 "Our directors wanted a document system they could quickly adapt, that would keep costs low, but help them expand very quickly indeed," says Lark. "They did not want to invest in on-site infrastructure if the resources and IT support involved ultimately slowed our growth. The directors had a clear ICT strategy: 'All systems to the cloud.'"
 
 ### Customer needs
 
-1. Contoso wants to modernize the architecture of its solution, while keeping it .NET-based.
+1. Imperial Cadet Insurance (IcI) wants to modernize the architecture of its solution, while keeping it .NET-based.
 
 2. They would like a .NET developer-friendly way to implement its PolicyConnect mobile app for Android and iOS.
 
@@ -99,7 +99,7 @@ Cost containment will be achieved through use of cloud-based services. The aging
 
 7.  They would like to migrate to SQL Database.
 
-8.  Contoso wants to understand how to better deploy caching in its solution, both for the purposes of lessening load on the database and for providing scalable scoreboards.
+8.  Imperial Cadet Insurance (IcI) wants to understand how to better deploy caching in its solution, both for the purposes of lessening load on the database and for providing scalable scoreboards.
 
 ### Customer objections
 
@@ -141,7 +141,7 @@ Directions: With all participants at your table, respond to the following questi
 
     *Mobile and web applications*
 
-1.  How should Contoso implement the PolicyConnect mobile app?
+1.  How should Imperial Cadet Insurance (IcI) implement the PolicyConnect mobile app?
 
 2.  What Azure service would host the website?
 
@@ -151,12 +151,12 @@ Directions: With all participants at your table, respond to the following questi
 
 5.  How would you secure sensitive information used by the website and APIs? Be specific on the Azure Service used, how you would configure it, and how the web or API logic would retrieve its secrets at run time.
 
-6.  What recommendations can you make to help Contoso manage its API inventory as it grows in the future? Are there services in Azure that can provide a proof of concept *API Store* experience now and serve as path to development in the future?
+6.  What recommendations can you make to help Imperial Cadet Insurance (IcI) manage its API inventory as it grows in the future? Are there services in Azure that can provide a proof of concept *API Store* experience now and serve as path to development in the future?
 
     *Data management*
 
 
-1.  What tools would you recommend Contoso use to migrate its database? How would you use these? Be specific.
+1.  What tools would you recommend Imperial Cadet Insurance (IcI) use to migrate its database? How would you use these? Be specific.
 
 2.  What patterns and services would you use to reduce load on the database? Implement the scoreboards? Be specific on the Azure services used and how the application would take advantage of them.
 
@@ -167,7 +167,7 @@ Directions: With all participants at your table, respond to the following questi
 
 1.  How would you enable its business users to create their own internal mobile apps that help them streamline their processes without the time and resource investment that goes into implementing full-scale mobile apps?
 
-2.  Given your answer to the previous question, how would a Contoso business user implement the scenario where a high-priority email is sent to his Office 365 email and in response an application notification appears on his device?
+2.  Given your answer to the previous question, how would a Imperial Cadet Insurance (IcI) business user implement the scenario where a high-priority email is sent to his Office 365 email and in response an application notification appears on his device?
 
 **Prepare**
 
