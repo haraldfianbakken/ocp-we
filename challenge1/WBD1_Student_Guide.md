@@ -25,8 +25,9 @@ At the end of this whiteboard design session, you will be better able to design 
 >* 60 minutes for **planning & designing a solution architecture** 
 >* Last 20 min (10 per team) will be used for teams **mutual presenting of crafted solution**
 >
->We wish to you all - good luck, fun and discovery time with your team!  :metal: :octocat: 
-<!--test emoji-->
+>We wish to you all - good luck, fun and discovery time with your team!
+
+
 ## Step 1: Review the customer case study
 
 >**Outcome**: Analyze your and understand customer’s needs.

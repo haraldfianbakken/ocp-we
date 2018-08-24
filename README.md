@@ -9,6 +9,7 @@ Welcome to the OCP WE Technical challenge. Let's have some Tech fun today! There
 >* Last 20 min (10 per team) will be used for teams **mutual presenting of crafted solution**
 >
 >We wish to you all - good luck, fun and discovery time with your team!
+
 # Challenge 1
 [Challenge 1](challenge1\WBD1_Student_Guide.html)
 
