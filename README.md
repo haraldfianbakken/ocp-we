@@ -15,7 +15,7 @@ Welcome to the OCP WE Technical challenge. Let's have some Tech fun today! There
 
 
 # Challenge 2 
-[Challenge 2](challenge2\WBD2_Student_Guide.html)
+![Martin](https://media.licdn.com/dms/image/C5603AQFi2S9uNWuY2A/profile-displayphoto-shrink_800_800/0?e=1541635200&v=beta&t=h_nsEJEzvavKYWTUU6ydRXBXjMMcvS9JuO0OMP1EFAg "Martin Sih")
 
 ## May the Force be with us *all*!
 ![Darth](/challenge1/images/stormtroopocat.png  "Darth")
